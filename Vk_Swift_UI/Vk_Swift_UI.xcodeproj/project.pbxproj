@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */; };
-		7ECF6CE9275E796F009CB260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE8275E796F009CB260 /* ContentView.swift */; };
+		7ECF6CE9275E796F009CB260 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE8275E796F009CB260 /* LoginView.swift */; };
 		7ECF6CEB275E7971009CB260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF6CEA275E7971009CB260 /* Assets.xcassets */; };
 		7ECF6CEE275E7971009CB260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF6CED275E7971009CB260 /* Preview Assets.xcassets */; };
+		7ECF6D00276050A1009CB260 /* GroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */; };
+		7ECF6D02276050B2009CB260 /* FriendViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D01276050B2009CB260 /* FriendViewCell.swift */; };
+		7ECF6D04276050C4009CB260 /* CircleShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D03276050C4009CB260 /* CircleShadowViewModifier.swift */; };
+		7ECF6D06276050DF009CB260 /* AvatarImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7ECF6CE3275E796F009CB260 /* Vk_Swift_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vk_Swift_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vk_Swift_UIApp.swift; sourceTree = "<group>"; };
-		7ECF6CE8275E796F009CB260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ECF6CE8275E796F009CB260 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7ECF6CEA275E7971009CB260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECF6CED275E7971009CB260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewCell.swift; sourceTree = "<group>"; };
+		7ECF6D01276050B2009CB260 /* FriendViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewCell.swift; sourceTree = "<group>"; };
+		7ECF6D03276050C4009CB260 /* CircleShadowViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShadowViewModifier.swift; sourceTree = "<group>"; };
+		7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */,
-				7ECF6CE8275E796F009CB260 /* ContentView.swift */,
+				7ECF6CE8275E796F009CB260 /* LoginView.swift */,
+				7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */,
+				7ECF6D01276050B2009CB260 /* FriendViewCell.swift */,
+				7ECF6D03276050C4009CB260 /* CircleShadowViewModifier.swift */,
+				7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */,
 				7ECF6CEA275E7971009CB260 /* Assets.xcassets */,
 				7ECF6CEC275E7971009CB260 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ECF6CE9275E796F009CB260 /* ContentView.swift in Sources */,
+				7ECF6CE9275E796F009CB260 /* LoginView.swift in Sources */,
+				7ECF6D04276050C4009CB260 /* CircleShadowViewModifier.swift in Sources */,
 				7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */,
+				7ECF6D06276050DF009CB260 /* AvatarImageViewBuilder.swift in Sources */,
+				7ECF6D02276050B2009CB260 /* FriendViewCell.swift in Sources */,
+				7ECF6D00276050A1009CB260 /* GroupViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
