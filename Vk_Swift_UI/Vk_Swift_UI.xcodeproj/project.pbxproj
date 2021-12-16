@@ -8,46 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		7E3E1EA52764EE0B006DACCA /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */; };
-		7E3E1EAD2764FEF8006DACCA /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EAC2764FEF8006DACCA /* Friend.swift */; };
-		7E3E1EAF2764FF09006DACCA /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EAE2764FF09006DACCA /* Group.swift */; };
-		7E3E1EB12764FF1C006DACCA /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB02764FF1C006DACCA /* Photo.swift */; };
 		7E3E1EB32764FF40006DACCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB22764FF40006DACCA /* ContentView.swift */; };
 		7E3E1EB52764FFFE006DACCA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB42764FFFE006DACCA /* NewsView.swift */; };
-		7E3E1EB727650044006DACCA /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB627650044006DACCA /* GroupsView.swift */; };
-		7E3E1EB92765008C006DACCA /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB82765008C006DACCA /* FriendsView.swift */; };
+		7E3E1EB727650044006DACCA /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB627650044006DACCA /* GroupView.swift */; };
+		7E3E1EB92765008C006DACCA /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB82765008C006DACCA /* FriendView.swift */; };
 		7E3E1EBB276501DC006DACCA /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EBA276501DC006DACCA /* LoginService.swift */; };
-		7E3E1EBD276503A6006DACCA /* FriendPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EBC276503A6006DACCA /* FriendPhotosView.swift */; };
-		7E3E1EBF276503B9006DACCA /* FriendPhotoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EBE276503B9006DACCA /* FriendPhotoCellView.swift */; };
-		7E3E1EC2276504A8006DACCA /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 7E3E1EC1276504A8006DACCA /* ASCollectionView */; };
+		7EA1EFF52769725800DD7713 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1EFF42769725800DD7713 /* Group.swift */; };
+		7EA1F00E276ACD0B00DD7713 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1F00D276ACD0B00DD7713 /* Friend.swift */; };
 		7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */; };
 		7ECF6CE9275E796F009CB260 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE8275E796F009CB260 /* LoginView.swift */; };
 		7ECF6CEB275E7971009CB260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF6CEA275E7971009CB260 /* Assets.xcassets */; };
 		7ECF6CEE275E7971009CB260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF6CED275E7971009CB260 /* Preview Assets.xcassets */; };
-		7ECF6D00276050A1009CB260 /* GroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */; };
-		7ECF6D02276050B2009CB260 /* FriendViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D01276050B2009CB260 /* FriendViewCell.swift */; };
+		7ECF6D00276050A1009CB260 /* GroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CFF276050A1009CB260 /* GroupList.swift */; };
+		7ECF6D02276050B2009CB260 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D01276050B2009CB260 /* FriendList.swift */; };
 		7ECF6D04276050C4009CB260 /* CircleShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D03276050C4009CB260 /* CircleShadowViewModifier.swift */; };
 		7ECF6D06276050DF009CB260 /* AvatarImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
-		7E3E1EAC2764FEF8006DACCA /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
-		7E3E1EAE2764FF09006DACCA /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
-		7E3E1EB02764FF1C006DACCA /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		7E3E1EB22764FF40006DACCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E3E1EB42764FFFE006DACCA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		7E3E1EB627650044006DACCA /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
-		7E3E1EB82765008C006DACCA /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		7E3E1EB627650044006DACCA /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		7E3E1EB82765008C006DACCA /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		7E3E1EBA276501DC006DACCA /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		7E3E1EBC276503A6006DACCA /* FriendPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotosView.swift; sourceTree = "<group>"; };
-		7E3E1EBE276503B9006DACCA /* FriendPhotoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotoCellView.swift; sourceTree = "<group>"; };
+		7EA1EFF42769725800DD7713 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		7EA1F00D276ACD0B00DD7713 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		7ECF6CE3275E796F009CB260 /* Vk_Swift_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vk_Swift_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vk_Swift_UIApp.swift; sourceTree = "<group>"; };
 		7ECF6CE8275E796F009CB260 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7ECF6CEA275E7971009CB260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECF6CED275E7971009CB260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewCell.swift; sourceTree = "<group>"; };
-		7ECF6D01276050B2009CB260 /* FriendViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewCell.swift; sourceTree = "<group>"; };
+		7ECF6CFF276050A1009CB260 /* GroupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupList.swift; sourceTree = "<group>"; };
+		7ECF6D01276050B2009CB260 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
 		7ECF6D03276050C4009CB260 /* CircleShadowViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleShadowViewModifier.swift; sourceTree = "<group>"; };
 		7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3E1EC2276504A8006DACCA /* ASCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +67,6 @@
 		7E3E1EA72764EE9C006DACCA /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				7E3E1EAB2764EF65006DACCA /* Models */,
 				7E3E1EA82764EEB5006DACCA /* Login */,
 			);
 			path = Flows;
@@ -106,21 +97,12 @@
 			path = ViewModifier;
 			sourceTree = "<group>";
 		};
-		7E3E1EAB2764EF65006DACCA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7E3E1EAC2764FEF8006DACCA /* Friend.swift */,
-				7E3E1EAE2764FF09006DACCA /* Group.swift */,
-				7E3E1EB02764FF1C006DACCA /* Photo.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		7E3E1EC527651549006DACCA /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				7E3E1EB627650044006DACCA /* GroupsView.swift */,
-				7ECF6CFF276050A1009CB260 /* GroupViewCell.swift */,
+				7E3E1EB627650044006DACCA /* GroupView.swift */,
+				7ECF6CFF276050A1009CB260 /* GroupList.swift */,
+				7EA1EFF42769725800DD7713 /* Group.swift */,
 			);
 			path = Group;
 			sourceTree = "<group>";
@@ -128,10 +110,9 @@
 		7E3E1EC62765155E006DACCA /* Friend */ = {
 			isa = PBXGroup;
 			children = (
-				7E3E1EB82765008C006DACCA /* FriendsView.swift */,
-				7E3E1EBC276503A6006DACCA /* FriendPhotosView.swift */,
-				7E3E1EBE276503B9006DACCA /* FriendPhotoCellView.swift */,
-				7ECF6D01276050B2009CB260 /* FriendViewCell.swift */,
+				7E3E1EB82765008C006DACCA /* FriendView.swift */,
+				7ECF6D01276050B2009CB260 /* FriendList.swift */,
+				7EA1F00D276ACD0B00DD7713 /* Friend.swift */,
 			);
 			path = Friend;
 			sourceTree = "<group>";
@@ -148,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				7ECF6CE5275E796F009CB260 /* Vk_Swift_UI */,
+				7ECF6CEC275E7971009CB260 /* Preview Content */,
+				7ECF6CEA275E7971009CB260 /* Assets.xcassets */,
 				7ECF6CE4275E796F009CB260 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,8 +155,6 @@
 				7E3E1EC527651549006DACCA /* Group */,
 				7E3E1EC62765155E006DACCA /* Friend */,
 				7E3E1EC727651577006DACCA /* News */,
-				7ECF6CEA275E7971009CB260 /* Assets.xcassets */,
-				7ECF6CEC275E7971009CB260 /* Preview Content */,
 			);
 			path = Vk_Swift_UI;
 			sourceTree = "<group>";
@@ -203,7 +184,6 @@
 			);
 			name = Vk_Swift_UI;
 			packageProductDependencies = (
-				7E3E1EC1276504A8006DACCA /* ASCollectionView */,
 			);
 			productName = Vk_Swift_UI;
 			productReference = 7ECF6CE3275E796F009CB260 /* Vk_Swift_UI.app */;
@@ -234,7 +214,6 @@
 			);
 			mainGroup = 7ECF6CDA275E796F009CB260;
 			packageReferences = (
-				7E3E1EC0276504A8006DACCA /* XCRemoteSwiftPackageReference "ASCollectionView" */,
 			);
 			productRefGroup = 7ECF6CE4275E796F009CB260 /* Products */;
 			projectDirPath = "";
@@ -262,23 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3E1EB92765008C006DACCA /* FriendsView.swift in Sources */,
-				7E3E1EBD276503A6006DACCA /* FriendPhotosView.swift in Sources */,
-				7E3E1EAF2764FF09006DACCA /* Group.swift in Sources */,
-				7E3E1EBF276503B9006DACCA /* FriendPhotoCellView.swift in Sources */,
-				7E3E1EB727650044006DACCA /* GroupsView.swift in Sources */,
+				7E3E1EB92765008C006DACCA /* FriendView.swift in Sources */,
+				7E3E1EB727650044006DACCA /* GroupView.swift in Sources */,
+				7EA1EFF52769725800DD7713 /* Group.swift in Sources */,
 				7E3E1EB32764FF40006DACCA /* ContentView.swift in Sources */,
 				7E3E1EA52764EE0B006DACCA /* UIApplication+Extensions.swift in Sources */,
 				7ECF6CE9275E796F009CB260 /* LoginView.swift in Sources */,
 				7ECF6D04276050C4009CB260 /* CircleShadowViewModifier.swift in Sources */,
 				7E3E1EBB276501DC006DACCA /* LoginService.swift in Sources */,
-				7E3E1EB12764FF1C006DACCA /* Photo.swift in Sources */,
 				7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */,
 				7ECF6D06276050DF009CB260 /* AvatarImageViewBuilder.swift in Sources */,
-				7ECF6D02276050B2009CB260 /* FriendViewCell.swift in Sources */,
+				7ECF6D02276050B2009CB260 /* FriendList.swift in Sources */,
 				7E3E1EB52764FFFE006DACCA /* NewsView.swift in Sources */,
-				7ECF6D00276050A1009CB260 /* GroupViewCell.swift in Sources */,
-				7E3E1EAD2764FEF8006DACCA /* Friend.swift in Sources */,
+				7ECF6D00276050A1009CB260 /* GroupList.swift in Sources */,
+				7EA1F00E276ACD0B00DD7713 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +384,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vk_Swift_UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +411,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vk_Swift_UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -479,25 +453,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7E3E1EC0276504A8006DACCA /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7E3E1EC1276504A8006DACCA /* ASCollectionView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7E3E1EC0276504A8006DACCA /* XCRemoteSwiftPackageReference "ASCollectionView" */;
-			productName = ASCollectionView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7ECF6CDB275E796F009CB260 /* Project object */;
 }

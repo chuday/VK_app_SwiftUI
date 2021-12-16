@@ -11,4 +11,5 @@ struct NewsView: View {
     var body: some View {
         Text("Hello, News!")
     }
+    
 }
