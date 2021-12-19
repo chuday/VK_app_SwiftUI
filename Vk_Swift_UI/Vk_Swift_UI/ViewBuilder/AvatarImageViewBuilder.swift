@@ -6,20 +6,20 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct AvatarImage: View {
-    var content: Image
-    
-    init(@ViewBuilder content: () -> Image) {
+    var content: KFImage
+ 
+    init(@ViewBuilder content: () -> KFImage) {
         self.content = content()
     }
-    
+ 
     var body: some View {
         content
             .resizable()
-            .frame(width: 30, height: 30)
-            .cornerRadius(15)
-            .modifier(CircleShadow(shadowColor: .black, shadowRadius: 4, shadowOpacity: 0.7))
-            .padding()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 100, height: 100)
+            .clipShape(Circle())
     }
 }

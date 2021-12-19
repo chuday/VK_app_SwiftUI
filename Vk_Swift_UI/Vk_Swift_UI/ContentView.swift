@@ -11,44 +11,19 @@ struct ContentView: View {
     
     @State private var shouldShowGroupView: Bool = false
     
+    @ObservedObject var session = Session.instance
+    
     var body: some View {
-        
         NavigationView {
-            
             HStack {
-                LoginView(isUserLoggedIn: $shouldShowGroupView)
-                
-                NavigationLink(
-                    destination:
-                                TabView {
-                                    
-                    FriendView()
-                        .tabItem {
-                            Image(systemName: "person.circle")
-                            Text("Friends")
-                        }
-                                    
-                    GroupView()
-                        .tabItem {
-                            Image(systemName: "person.3")
-                            Text("Groups")
-                        }
-                                    
-                    NewsView()
-                        .tabItem {
-                            Image(systemName: "newspaper")
-                            Text("News")
-                        }
-                                }
-                    
-                        .navigationBarBackButtonHidden(true),
-                    isActive: $shouldShowGroupView,
-                    label: {
-                        EmptyView()
-                    }
-                )
+                VKLoginWebView()
+                NavigationLink(destination: MainTabView(),
+                               isActive: $session.isAuthorized) {
+                    EmptyView()
+                }
             }
         }
     }
+
 }
 
