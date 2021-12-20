@@ -13,6 +13,7 @@
 		7E3E1EB727650044006DACCA /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB627650044006DACCA /* GroupsView.swift */; };
 		7E3E1EB92765008C006DACCA /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB82765008C006DACCA /* FriendViewModel.swift */; };
 		7E3E1EBB276501DC006DACCA /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EBA276501DC006DACCA /* LoginService.swift */; };
+		7E998657277020FE000D413C /* MyPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E998656277020FE000D413C /* MyPropertyWrapper.swift */; };
 		7EA1EFF52769725800DD7713 /* GroupPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1EFF42769725800DD7713 /* GroupPageView.swift */; };
 		7EA1F00E276ACD0B00DD7713 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1F00D276ACD0B00DD7713 /* FriendsView.swift */; };
 		7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */; };
@@ -45,6 +46,7 @@
 		7E3E1EB627650044006DACCA /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		7E3E1EB82765008C006DACCA /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
 		7E3E1EBA276501DC006DACCA /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		7E998656277020FE000D413C /* MyPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPropertyWrapper.swift; sourceTree = "<group>"; };
 		7EA1EFF42769725800DD7713 /* GroupPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPageView.swift; sourceTree = "<group>"; };
 		7EA1F00D276ACD0B00DD7713 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		7ECF6CE3275E796F009CB260 /* Vk_Swift_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vk_Swift_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +181,7 @@
 			children = (
 				7E3E1EB22764FF40006DACCA /* ContentView.swift */,
 				7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */,
+				7E998656277020FE000D413C /* MyPropertyWrapper.swift */,
 				7E3E1EA92764EF0E006DACCA /* ViewBuilder */,
 				7E3E1EAA2764EF26006DACCA /* ViewModifier */,
 				7E3E1EA72764EE9C006DACCA /* Flows */,
@@ -327,6 +330,7 @@
 				7EFE8320276C1AFC00864039 /* FriendsVK.swift in Sources */,
 				7EFE837A276EC94600864039 /* Modifier.swift in Sources */,
 				7ECF6D04276050C4009CB260 /* CircleShadowViewModifier.swift in Sources */,
+				7E998657277020FE000D413C /* MyPropertyWrapper.swift in Sources */,
 				7EFE836F276EC57E00864039 /* GroupAPI.swift in Sources */,
 				7E3E1EBB276501DC006DACCA /* LoginService.swift in Sources */,
 				7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */,
