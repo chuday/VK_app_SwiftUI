@@ -12,10 +12,12 @@ struct FriendPageView: View {
     var friend: FriendItem
     var body: some View {
         VStack {
-            AvatarImage { KFImage(URL(string: friend.photo100!)!) }
+            ImageFriendViewBuilder { KFImage(URL(string: friend.photo100!)!) }
             
-            Text("\(friend.firstName) \(friend.lastName)")
-                .modifier(TitleText())
+            Spacer()
+                .frame(height: 30.0)
+            
+            LikeButton()
             
             Spacer()
         }.padding()

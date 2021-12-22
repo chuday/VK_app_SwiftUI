@@ -9,6 +9,8 @@ import SwiftUI
 import Kingfisher
 
 struct AvatarImage: View {
+    
+    @State private var isScaled = false
     var content: KFImage
  
     init(@ViewBuilder content: () -> KFImage) {
@@ -19,7 +21,13 @@ struct AvatarImage: View {
         content
             .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: 100, height: 100)
+            .frame(width: 70, height: 70)
             .clipShape(Circle())
+            .scaleEffect(isScaled ? 0.75 : 1)
+            .onTapGesture {
+                withAnimation(.easeInOut(duration: 0.2)) {
+                    self.isScaled.toggle()
+                }
+            }
     }
 }

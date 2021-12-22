@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3391C22772B693009E6C06 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3391C12772B693009E6C06 /* LikeButton.swift */; };
+		7E3391C42772C22A009E6C06 /* ImageFriendViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3391C32772C22A009E6C06 /* ImageFriendViewBuilder.swift */; };
 		7E3E1EA52764EE0B006DACCA /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */; };
 		7E3E1EB32764FF40006DACCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB22764FF40006DACCA /* ContentView.swift */; };
 		7E3E1EB52764FFFE006DACCA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EB42764FFFE006DACCA /* NewsView.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3391C12772B693009E6C06 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		7E3391C32772C22A009E6C06 /* ImageFriendViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFriendViewBuilder.swift; sourceTree = "<group>"; };
 		7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		7E3E1EB22764FF40006DACCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E3E1EB42764FFFE006DACCA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3391C52772C745009E6C06 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				7E998656277020FE000D413C /* MyPropertyWrapper.swift */,
+				7E3391C12772B693009E6C06 /* LikeButton.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		7E3E1EA62764EE15006DACCA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				7ECF6D05276050DF009CB260 /* AvatarImageViewBuilder.swift */,
+				7E3391C32772C22A009E6C06 /* ImageFriendViewBuilder.swift */,
 			);
 			path = ViewBuilder;
 			sourceTree = "<group>";
@@ -181,7 +195,6 @@
 			children = (
 				7E3E1EB22764FF40006DACCA /* ContentView.swift */,
 				7ECF6CE6275E796F009CB260 /* Vk_Swift_UIApp.swift */,
-				7E998656277020FE000D413C /* MyPropertyWrapper.swift */,
 				7E3E1EA92764EF0E006DACCA /* ViewBuilder */,
 				7E3E1EAA2764EF26006DACCA /* ViewModifier */,
 				7E3E1EA72764EE9C006DACCA /* Flows */,
@@ -189,6 +202,7 @@
 				7EFE837B276ECA8500864039 /* Models */,
 				7E3E1EC527651549006DACCA /* Group */,
 				7E3E1EC62765155E006DACCA /* Friend */,
+				7E3391C52772C745009E6C06 /* Misc */,
 				7E3E1EC727651577006DACCA /* News */,
 			);
 			path = Vk_Swift_UI;
@@ -318,9 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3391C22772B693009E6C06 /* LikeButton.swift in Sources */,
 				7E3E1EB92765008C006DACCA /* FriendViewModel.swift in Sources */,
 				7E3E1EB727650044006DACCA /* GroupsView.swift in Sources */,
 				7EA1EFF52769725800DD7713 /* GroupPageView.swift in Sources */,
+				7E3391C42772C22A009E6C06 /* ImageFriendViewBuilder.swift in Sources */,
 				7E3E1EB32764FF40006DACCA /* ContentView.swift in Sources */,
 				7E3E1EA52764EE0B006DACCA /* UIApplication+Extensions.swift in Sources */,
 				7EFE8326276C1B4900864039 /* VKLoginWebView.swift in Sources */,
