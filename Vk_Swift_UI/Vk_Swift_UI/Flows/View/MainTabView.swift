@@ -26,10 +26,17 @@ struct MainTabView: View {
                     Text("Groups")
                 }
             
-            NewsView()
+//            NewsView()
+//                .tabItem {
+//                    Image(systemName: "newspaper")
+//                    Text("News")
+//                }
+            
+            PhotoView(viewModel: PhotosViewModel(PhotoAPI()))
+                .navigationBarTitle("", displayMode: .inline)
                 .tabItem {
-                    Image(systemName: "newspaper")
-                    Text("News")
+                    Image(systemName: "photo.fill")
+                    Text("Photo")
                 }
         }.navigationBarBackButtonHidden(true)
     }

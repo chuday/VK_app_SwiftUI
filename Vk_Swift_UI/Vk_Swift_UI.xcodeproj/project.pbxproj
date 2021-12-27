@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E009D192779448700E7EB2D /* PhotoVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E009D182779448700E7EB2D /* PhotoVK.swift */; };
+		7E009D1B277944FE00E7EB2D /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E009D1A277944FE00E7EB2D /* PhotoAPI.swift */; };
+		7E009D1E2779457F00E7EB2D /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E009D1D2779457F00E7EB2D /* PhotosViewModel.swift */; };
+		7E009D202779459C00E7EB2D /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E009D1F2779459C00E7EB2D /* PhotoView.swift */; };
+		7E009D22277945BE00E7EB2D /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E009D21277945BE00E7EB2D /* PhotoItemView.swift */; };
 		7E3391C22772B693009E6C06 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3391C12772B693009E6C06 /* LikeButton.swift */; };
 		7E3391C42772C22A009E6C06 /* ImageFriendViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3391C32772C22A009E6C06 /* ImageFriendViewBuilder.swift */; };
 		7E3E1EA52764EE0B006DACCA /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */; };
@@ -42,6 +47,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E009D182779448700E7EB2D /* PhotoVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVK.swift; sourceTree = "<group>"; };
+		7E009D1A277944FE00E7EB2D /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		7E009D1D2779457F00E7EB2D /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		7E009D1F2779459C00E7EB2D /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		7E009D21277945BE00E7EB2D /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
 		7E3391C12772B693009E6C06 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 		7E3391C32772C22A009E6C06 /* ImageFriendViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFriendViewBuilder.swift; sourceTree = "<group>"; };
 		7E3E1EA42764EE0B006DACCA /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
@@ -88,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E009D1C2779455E00E7EB2D /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				7E009D1D2779457F00E7EB2D /* PhotosViewModel.swift */,
+				7E009D1F2779459C00E7EB2D /* PhotoView.swift */,
+				7E009D21277945BE00E7EB2D /* PhotoItemView.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
 		7E3391C52772C745009E6C06 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +222,7 @@
 				7EFE837B276ECA8500864039 /* Models */,
 				7E3E1EC527651549006DACCA /* Group */,
 				7E3E1EC62765155E006DACCA /* Friend */,
+				7E009D1C2779455E00E7EB2D /* Photo */,
 				7E3391C52772C745009E6C06 /* Misc */,
 				7E3E1EC727651577006DACCA /* News */,
 			);
@@ -221,6 +242,7 @@
 			children = (
 				7EFE8321276C1B1900864039 /* GroupVK.swift */,
 				7EFE831F276C1AFC00864039 /* FriendsVK.swift */,
+				7E009D182779448700E7EB2D /* PhotoVK.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +252,7 @@
 			children = (
 				7EFE836E276EC57E00864039 /* GroupAPI.swift */,
 				7EFE8370276EC5A700864039 /* FriendsAPI.swift */,
+				7E009D1A277944FE00E7EB2D /* PhotoAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -334,7 +357,9 @@
 			files = (
 				7E3391C22772B693009E6C06 /* LikeButton.swift in Sources */,
 				7E3E1EB92765008C006DACCA /* FriendViewModel.swift in Sources */,
+				7E009D22277945BE00E7EB2D /* PhotoItemView.swift in Sources */,
 				7E3E1EB727650044006DACCA /* GroupsView.swift in Sources */,
+				7E009D192779448700E7EB2D /* PhotoVK.swift in Sources */,
 				7EA1EFF52769725800DD7713 /* GroupPageView.swift in Sources */,
 				7E3391C42772C22A009E6C06 /* ImageFriendViewBuilder.swift in Sources */,
 				7E3E1EB32764FF40006DACCA /* ContentView.swift in Sources */,
@@ -350,6 +375,7 @@
 				7EFE836F276EC57E00864039 /* GroupAPI.swift in Sources */,
 				7E3E1EBB276501DC006DACCA /* LoginService.swift in Sources */,
 				7ECF6CE7275E796F009CB260 /* Vk_Swift_UIApp.swift in Sources */,
+				7E009D1B277944FE00E7EB2D /* PhotoAPI.swift in Sources */,
 				7ECF6D06276050DF009CB260 /* AvatarImageViewBuilder.swift in Sources */,
 				7ECF6D02276050B2009CB260 /* FriendRowView.swift in Sources */,
 				7E3E1EB52764FFFE006DACCA /* NewsView.swift in Sources */,
@@ -357,6 +383,8 @@
 				7EFE8324276C1B3200864039 /* Sessions.swift in Sources */,
 				7EFE8371276EC5A700864039 /* FriendsAPI.swift in Sources */,
 				7EFE8378276EC8D400864039 /* FriendPageView.swift in Sources */,
+				7E009D202779459C00E7EB2D /* PhotoView.swift in Sources */,
+				7E009D1E2779457F00E7EB2D /* PhotosViewModel.swift in Sources */,
 				7ECF6D00276050A1009CB260 /* GroupRowView.swift in Sources */,
 				7EA1F00E276ACD0B00DD7713 /* FriendsView.swift in Sources */,
 			);
