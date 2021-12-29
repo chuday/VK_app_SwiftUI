@@ -1,1 +1,1 @@
-# VK_app ( SwiftUI )
+# VK_app (SwiftUI)
